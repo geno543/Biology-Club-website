@@ -9,8 +9,6 @@ const boardMembers = [
     role: 'President',
     image: '/images/team/Hazem.jpg',
     bio: 'Leading the Biology Club with passion and innovation. Focused on creating opportunities for students to explore biological sciences.',
-    // specialty: 'Molecular Biology',
-    // research: 'Gene Expression',
     socials: {
       linkedin: '#',
       facebook: '#',
@@ -22,8 +20,6 @@ const boardMembers = [
     role: 'Vice President',
     image: '/images/team/Omar Sherif.jpg',
     bio: 'Coordinating club activities and research programs. Passionate about molecular biology and genetics.',
-    // specialty: 'Genetics',
-    // research: 'DNA Sequencing',
     socials: {
       linkedin: '#',
       facebook: '#',
@@ -35,8 +31,6 @@ const boardMembers = [
     role: 'Director of Research and Media',
     image: '/images/team/Karim.jpg',
     bio: 'Managing research projects and scientific initiatives. Specializing in biotechnology and cellular biology.',
-    // specialty: 'Cell Biology',
-    // research: 'Stem Cells',
     socials: {
       linkedin: '#',
       facebook: '#',
@@ -48,8 +42,6 @@ const boardMembers = [
     role: 'Publication & Communication Manager',
     image: '/images/team/Marwan.jpg',
     bio: 'Organizing competitions, workshops, and educational events. Focused on creating engaging learning experiences.',
-    // specialty: 'Ecology',
-    // research: 'Biodiversity',
     socials: {
       linkedin: '#',
       facebook: '#',
@@ -61,8 +53,6 @@ const boardMembers = [
     role: 'Advisory Team',
     image: '/images/team/Mahdy.jpg',
     bio: 'Providing guidance and strategic support for the team. Focused on enhancing decision-making, problem-solving, and overall growth.',
-    // specialty: 'Ecology',
-    // research: 'Biodiversity',
     socials: {
       linkedin: '#',
       facebook: '#',
@@ -73,8 +63,6 @@ const boardMembers = [
     role: 'Advisory Team',
     image: '/images/team/Youssef.jpg',
     bio: 'Providing guidance and strategic support for the team. Focused on enhancing decision-making, problem-solving, and overall growth.',
-    // specialty: 'Ecology',
-    // research: 'Biodiversity',
     socials: {
       linkedin: '#',
       facebook: '#',
@@ -85,8 +73,6 @@ const boardMembers = [
     role: 'Advisory Team',
     image: '/images/team/Omar Amr.jpg',
     bio: 'Providing guidance and strategic support for the team. Focused on enhancing decision-making, problem-solving, and overall growth.',
-    // specialty: 'Ecology',
-    // research: 'Biodiversity',
     socials: {
       linkedin: '#',
       facebook: '#',
@@ -97,8 +83,6 @@ const boardMembers = [
     role: 'Advisory Team',
     image: '/images/team/Youssef Alumni.jpg',
     bio: 'Providing guidance and strategic support for the team. Focused on enhancing decision-making, problem-solving, and overall growth.',
-    // specialty: 'Ecology',
-    // research: 'Biodiversity',
     socials: {
       linkedin: '#',
       facebook: '#',
@@ -110,8 +94,6 @@ const boardMembers = [
     role: 'Web Developer',
     image: '/images/team/Geno.jpg',
     bio: 'Managing and developing the biology club website, ensuring a seamless user experience.',
-    // specialty: 'Ecology',
-    // research: 'Biodiversity',
     socials: {
       linkedin: 'https://www.linkedin.com/in/mohamed-ramadan-551a17272/',
       facebook: 'https://www.facebook.com/mohmed.ramadan.587',
@@ -235,14 +217,6 @@ export default function Board() {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300">
                   <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <div className="mb-4">
-                      <div className="text-white/80 text-sm mb-2">
-                        <span className="font-semibold text-primary"></span> {member.specialty}
-                      </div>
-                      <div className="text-white/80 text-sm">
-                        <span className="font-semibold text-primary"></span> {member.research}
-                      </div>
-                    </div>
                     <div className="flex justify-center space-x-6">
                       <a 
                         href={member.socials.linkedin} 
